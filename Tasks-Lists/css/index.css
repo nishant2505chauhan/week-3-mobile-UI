@@ -1,0 +1,35 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:10%;
+    margin-block-end: 0%;
+}
+.top{
+    display: flex;
+    font-family:'Quicksand', sans-serif;
+    align-items: baseline;
+    margin-block-end: 0%;
+}
+.left-top{
+    width: 85%;
+    margin-block-end: 0%;
+}
+
+.heading{
+    font-size: xx-large;
+    margin-block-start: 0;
+}
+.task{
+    font-weight: 900;
+}
+.card{
+    border:1px solid orangered;
+    font-size: larger;
+    font-family:'Quicksand', sans-serif;
+    padding: 5%;
+    margin-block-start:5%;
+    width:80%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 2px lightgray;
+}

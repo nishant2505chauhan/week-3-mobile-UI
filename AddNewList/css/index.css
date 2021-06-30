@@ -1,0 +1,53 @@
+
+.background {
+    background-image: url("./../Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .blur {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(3px); 
+    height: 100%;
+      width: 100%;
+  }
+  .box{
+      width:70%;
+      height: 24%;
+      position: absolute;
+      left:15%;
+      top:38%;
+      background-color: white;
+      border:1px solid orangered;
+      border-radius: 10px;
+  }
+  .box-top{
+      text-align: center;
+      color: orangered;
+      font-family: sans-serif;
+      font-size: large;
+      margin-top: 1.2em;
+      font-weight: 100;
+  }
+  .box-mid{
+      border: 1px solid orangered;
+      border-radius: 5px;
+      width: 60%;
+      padding: 5px;
+      position: relative;
+      left: 20%;
+      margin-bottom: 5%;
+  }
+  .btn-add{
+      display: block;
+      color:white;
+      background-color: orangered;
+      border: none;
+      border-radius: 30px;
+      width:20%;
+      position: relative;
+      left: 40%;
+      padding: 5px;
+      font-size: large;
+  }
